@@ -4,27 +4,15 @@
 	flex-wrap:wrap;
 	justify-content:space-between;
 	width:100%;
-	gap:2px;
+	gap:10px;
 }
 
-.item-3{
-	font-size: 50px;
-	background-color:green;
-	width:100px;
-	height:100px;
+.item {
+	flex: 1 1 150px;
+	text-align:center;
+	padding:10px;
+	background-color: lightgray;
+	border: 1px solid black;
 }
 
-.item-1{
-	font-size:50px;
-	background-color:red;
-	width:100px;
-	height:100px;
-}
-
-.item-2{
-	font-size:50px;
-	background-color:blue;
-	width:100px;
-	height:100ox;
-}
 
